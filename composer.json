@@ -1,0 +1,22 @@
+{
+    "name": "carloswph/graph-adt",
+    "description": "Graph abstract data type implementation in PHP.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "carlos",
+            "email": "geral@meuppt.pt"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.4",
+        "ext-ds": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dsx\\": "src/"
+        }
+    }
+}
